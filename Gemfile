@@ -3,12 +3,15 @@ ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
+gem 'html2haml'
+gem 'haml-rails'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
-  gem 'html2haml'
+  
 end
+
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
