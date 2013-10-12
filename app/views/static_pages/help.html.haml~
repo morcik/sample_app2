@@ -1,7 +1,0 @@
-- provide(:title, 'Help')
-%h1 
-  =yield (:title)
-%p Find me in app/views/static_pages/help.html.haml
-%p
-  To get help on this sample app, see the
-  =link_to "Rails Tutorial book", "http://railstutorial.org/book"
