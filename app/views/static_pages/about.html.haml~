@@ -1,0 +1,4 @@
+%h1 About Us#about
+%p Find me in app/views/static_pages/about.html.haml
+%p
+  still following the tutorial
